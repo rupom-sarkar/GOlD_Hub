@@ -14,7 +14,7 @@ header {
     background-color: #000;
     color: gold;
     text-align: center;
-    padding: 25px;
+    padding: 30px;   /* change from 25px to 30px */
 }
 
 header p {
@@ -146,4 +146,50 @@ nav ul li a:hover {
 .product-grid .card button:hover {
     background-color: black;
     color: gold;
+}
+/* Contact Page */
+
+.contact-section {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.contact-section p {
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+.contact-section img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact-section button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-section button:hover {
+    background-color: black;
+    color: gold;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
